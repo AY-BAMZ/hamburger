@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/AY-BAMZ/hamburger.git/static/css/main.3778d3d0.chunk.css",
+    "main.js": "/AY-BAMZ/hamburger.git/static/js/main.e59d6f12.chunk.js",
+    "main.js.map": "/AY-BAMZ/hamburger.git/static/js/main.e59d6f12.chunk.js.map",
+    "runtime-main.js": "/AY-BAMZ/hamburger.git/static/js/runtime-main.93423a5e.js",
+    "runtime-main.js.map": "/AY-BAMZ/hamburger.git/static/js/runtime-main.93423a5e.js.map",
+    "static/css/2.d8c2af1c.chunk.css": "/AY-BAMZ/hamburger.git/static/css/2.d8c2af1c.chunk.css",
+    "static/js/2.e3192b12.chunk.js": "/AY-BAMZ/hamburger.git/static/js/2.e3192b12.chunk.js",
+    "static/js/2.e3192b12.chunk.js.map": "/AY-BAMZ/hamburger.git/static/js/2.e3192b12.chunk.js.map",
+    "index.html": "/AY-BAMZ/hamburger.git/index.html",
+    "static/css/2.d8c2af1c.chunk.css.map": "/AY-BAMZ/hamburger.git/static/css/2.d8c2af1c.chunk.css.map",
+    "static/css/main.3778d3d0.chunk.css.map": "/AY-BAMZ/hamburger.git/static/css/main.3778d3d0.chunk.css.map",
+    "static/js/2.e3192b12.chunk.js.LICENSE.txt": "/AY-BAMZ/hamburger.git/static/js/2.e3192b12.chunk.js.LICENSE.txt",
+    "static/media/facebook.ecfd804e.svg": "/AY-BAMZ/hamburger.git/static/media/facebook.ecfd804e.svg",
+    "static/media/instagram.caecae2f.svg": "/AY-BAMZ/hamburger.git/static/media/instagram.caecae2f.svg",
+    "static/media/logo.5dd5e967.svg": "/AY-BAMZ/hamburger.git/static/media/logo.5dd5e967.svg",
+    "static/media/twitter.b672fc1d.svg": "/AY-BAMZ/hamburger.git/static/media/twitter.b672fc1d.svg",
+    "static/media/whatsapp.409ecb13.svg": "/AY-BAMZ/hamburger.git/static/media/whatsapp.409ecb13.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93423a5e.js",
+    "static/css/2.d8c2af1c.chunk.css",
+    "static/js/2.e3192b12.chunk.js",
+    "static/css/main.3778d3d0.chunk.css",
+    "static/js/main.e59d6f12.chunk.js"
+  ]
+}
