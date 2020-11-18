@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Permanent+Marker&family=Righteous&family=Roboto&display=swap');
+
+.social{
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-around;
+}
+.social .socialMedia{
+    max-width: 700px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: auto;
+}
+.social .socialMedia .Icon{
+    font-size: 40px;
+    color: rgb(150, 190, 114);
+    margin: 10px;
+}
+.social .socialMedia h3{
+    font-size: 16px;
+    color: rgb(150, 190, 114);
+    font-weight: 400;
+    margin: 20px;
+}
+.social .socialMedia p{
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(150, 190, 114);
+    font-size: 20px;
+}
+.social .socialMedia .socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.social .socialMedia .socialIcons img{
+    width: 30px;
+    margin: 12px;
+}

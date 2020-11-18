@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Permanent+Marker&family=Righteous&family=Roboto&display=swap');
+
+.mostPoplular{
+    background-color:  rgb(75, 88, 63);
+    margin: 0px;
+}
+.mostPoplular h1{
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(150, 190, 114);
+    padding-top: 30px;
+}
+.mostPoplular p{
+    font-size: 30px;
+    font-weight: 300;
+    color: #f3f3f3;
+    letter-spacing: 6px;
+}
+.mostPoplular .mostRow{
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 50px;
+}
+.mostPoplular .mostRow .mostCol{
+    padding: 0px;
+    margin: 20px;
+    height: 450px;
+    max-width: 256px;
+    text-align: left;
+    background-color: #f3f3f3;
+}
+.mostPoplular .mostRow .colImage{
+    max-width: 256px;
+    height: 240px;
+    overflow-y: hidden;
+}
+.mostPoplular .mostRow .colImage img{
+    width: 100%;
+    height: 240px;
+}
+.mostPoplular .mostRow .mostCol h4{
+    font-weight: 700;
+    font-size: 14px;
+    padding: 20px 10px;
+    color: #555;
+}
+.mostPoplular .mostRow .mostCol h3{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px 10px;
+    font-weight: 800;
+    color: #555;
+    letter-spacing: 1px;
+}
+.mostPoplular .mostRow .mostCol p{
+    color: #777;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 0px;
+    padding: 0px 10px;
+    font-weight: 500;
+}
+.mostPoplular .mostRow .mostCol h2{
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+    color: #555;
+    font-weight: 700;
+    padding-bottom: 5px;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    border-bottom: 4px solid rgb(150, 190, 114);
+}

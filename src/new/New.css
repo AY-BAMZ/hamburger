@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Permanent+Marker&family=Righteous&family=Roboto&display=swap');
+.new{
+    background-color:  rgb(75, 88, 63);
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px;
+}
+.new h1{
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(150, 190, 114);
+    padding-top: 30px;
+}
+.new p{
+    font-size: 30px;
+    font-weight: 300;
+    color: #f3f3f3;
+    letter-spacing: 6px;
+}
+.new .newRow{
+    text-align: left;
+    justify-content: space-around;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+.new .newRow .newCol{
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+    max-width: 550px;
+}
+.new .newRow .newCol .newProduct{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+.new .newRow .newCol .newProduct .foodIcon{
+    font-size: 85px;
+    margin: 10px;
+    color: #ddd;
+}
+.new .newRow .newCol .newProduct .aboutNewProduct h1{
+    font-size: 18px;
+    color: #f3f3f3;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.new .newRow .newCol .newProduct .aboutNewProduct p{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.imago {
+    width: 100%;
+}
+.imago img{
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}

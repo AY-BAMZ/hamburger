@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Permanent+Marker&family=Righteous&family=Roboto&display=swap');
+
+#your_unique_id{
+    background: rgb(41, 41, 41);
+    width: 300px;
+}
+.dates{
+    background-color:  rgb(41, 41, 41);
+}
+.dates h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    padding-top: 30px;
+    color: #f3f3f3;
+}
+.dates .datesRow{
+    margin: 0px;
+    padding: 0px;
+}
+.dates .datesRow .datesCol{
+    display: block;
+    text-align: left;
+    padding-left: 30px;
+    margin: 30px 0px;
+}
+.dates .datesRow .datesCol label{
+    color: #f9f9f9;
+}
+.dates .datesRow .datesCol select{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    background: none;
+    border: 2px solid #f3f3f3;
+    outline: none;
+}
+.dates .datesRow .datesCol select:optional{
+    color: White;
+    background: rgb(41, 41, 41);
+}
+.dates .datesRow .datesCol input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    background: none;
+    border: 2px solid #f3f3f3;
+    color: blanchedalmond;
+}
+.dates button{
+    padding: 10px 25px;
+    margin: 40px auto;
+    border-width: 0px;
+    border-radius: 5px;
+    background: rgb(41, 41, 41);
+    color: #f3f3f3;
+    border: 2px solid #f3f3f3;
+    outline: none;
+    box-shadow: 0px 0px 14px 0px black;
+}

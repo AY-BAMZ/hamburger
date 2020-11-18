@@ -1,0 +1,107 @@
+.welcome{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    max-width: 1500px;
+}
+.welcomePoint{
+    align-items: center;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.welcomeLogo{
+    height: 100px;
+    pointer-events: none;
+    margin-top: 40px;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .welcomeLogo {
+      animation: App-logo-spin infinite 10s linear;
+    }
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+.welcome h1{
+    font-size: 40px;
+    color: #333;
+    text-shadow:
+    0 1px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5,
+    -2px 3px #808d93,
+    -3px 2px #cdd2d5,
+    -3px 4px #808d93,
+    -4px 3px #cdd2d5,
+    -4px 5px #808d93,
+    -5px 4px #cdd2d5,
+    -5px 6px #808d93,
+    -6px 5px #cdd2d5,
+    -6px 7px #808d93,
+    -7px 6px #cdd2d5,
+    -7px 8px #808d93,
+    -8px 7px #cdd2d5;
+    font-family: 'Righteous', cursive;
+}
+.welcome h1 span{
+    color: rgb(150, 14, 14);
+    text-shadow:
+    0 1px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5,
+    -2px 3px #808d93,
+    -3px 2px #cdd2d5,
+    -3px 4px #808d93,
+    -4px 3px #cdd2d5,
+    -4px 5px #808d93,
+    -5px 4px #cdd2d5,
+    -5px 6px #808d93,
+    -6px 5px #cdd2d5,
+    -6px 7px #808d93,
+    -7px 6px #cdd2d5,
+    -7px 8px #808d93,
+    -8px 7px #cdd2d5;
+}
+.welcome h5{
+    font-size: 15px;
+    color: #000;
+    max-width: 900px;
+    margin: auto;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 100px;
+    letter-spacing: 2.5px;
+    padding-top: 20px;
+}
+@media only screen and (max-width: 800px){
+    .welcome h5{
+        padding: 50px;
+    }
+    .welcomePoint{
+        padding-bottom: 150px;
+        padding-top: 200px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .welcome h1{
+        font-size: 35px;
+        padding: 10px;
+    }
+    .welcome h5{
+        padding: 10px;
+    }
+    .welcomePoint{
+        padding-bottom: 50px;
+        padding-top: 100px;
+    }
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
+.footer{
+    background-color: rgb(55, 63, 48);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.footer .footerRow{
+    text-align: left;
+    padding-top: 50px;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+.footer .footerBigCol{
+    padding: 10px;
+    margin: 0px;
+}
+.footer .footerBigCol img{
+    height: 120px;
+    max-width: 120px;
+    margin-left: 20px;
+    border-radius: 60px;
+    border: 5px solid rgb(150, 190, 114);
+}
+.footer .footerRow h1{
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    color: #f3f3f3;
+    margin-left: 20px;
+}
+.footer .footerRow p{
+    font-size: 14px;
+    color: #f3f3f3;
+    margin: 20px;
+    font-weight: 300;
+    max-width: 500px;
+}
+.footer .footerRow .footerCol ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer .footerRow .footerCol ul li{
+    margin: 5px;
+    margin-left: 20px;
+    color: #f3f3f3;
+    font-weight: 200;
+    padding: 0px;
+    cursor: pointer;
+}
+.footer .footerRow .footerCol ul li:hover{
+    color: rgb(150, 190, 114);
+}
+.footer .footerRow .footerCol label{
+    color: #f3f3f3;
+    margin-left: 20px;
+}
+.footer .footerRow .footerCol input{
+    margin-left: 20px;
+    border: 1px solid #f3f3f3;
+    background: none;
+    border-radius: 5px;
+    width: 170px;
+}
+.footer .footerRow .footerCol textarea{
+    height: 100px;
+    width: 170px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid #f3f3f3;
+    background: none;
+}

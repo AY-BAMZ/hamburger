@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Permanent+Marker&family=Righteous&family=Roboto&display=swap');
+
+.things{
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(75, 88, 63);
+}
+.things h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    color: rgb(150, 190, 114);
+    padding-top: 50px;
+}
+.things p{
+    font-size: 15px;
+    max-width: 500px;
+    font-weight: 300;
+    color: #f3f3f3;
+    margin: auto;
+}
+.microcip{
+    color: rgb(150, 190, 114);
+    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 50px;
+}
+.thingsSpace{
+    height: 200px;
+    width: 100%;
+}

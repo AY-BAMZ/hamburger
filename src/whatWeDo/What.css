@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Permanent+Marker&family=Righteous&family=Roboto&display=swap');
+.whatWeDo{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    max-width: 1500px;
+}
+.whatWeDo .what{
+    width: 100%;
+    margin-right: -15px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(41, 41, 41);
+    align-items: center;
+}
+.what .whatCol{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    max-height: 500px;
+    align-items: center;
+}
+.what .whatCol h1{
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(120, 182, 62);
+    margin: 80px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 170px;
+}
+.what .whatCol h5{
+    text-align: left;
+    color: #f3f3f3;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 80px;
+    margin-top: 0px;
+    max-width: 400px;
+}
+.what .whatCol img{
+    height: 500px;
+    clip-path: polygon(29% 0, 100% 0, 100% 100%, 23% 100%, 0 48%);
+    width: 100%;
+    justify-content: flex-end;
+}
+@media only screen and (max-width: 768px){
+    .what .whatCol h1{
+        margin: 80px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Permanent+Marker&family=Righteous&family=Roboto&display=swap');
+.foods{
+    background-color: rgb(75, 88, 63);
+    margin: 0px;
+}
+.foods .foodRow{
+    margin: 0px;
+}
+.foods .foodRow .foodCol .foodTypes .foodIcon{
+    color: rgb(150, 190, 114);
+    font-size: 50px;
+    margin-top: 30px;
+}
+.foods .foodRow .foodCol h1{
+    font-size: 20px;
+    text-align: left;
+    margin: 30px;
+    padding: 0px;
+    color: #ddd;
+    font-family: 'Permanent Marker', cursive;
+}
+.foods .foodRow .foodCol h3{
+    color: #f3f3f3;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    margin: 30px;
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 30px;
+}

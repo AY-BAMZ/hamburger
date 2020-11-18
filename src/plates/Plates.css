@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Permanent+Marker&family=Righteous&family=Roboto&display=swap');
+.plates{
+}
+.plates .plateSize{
+    background-color: rgb(75, 88, 63);
+    max-width: 1024px;
+    max-width: 1024px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.plates .plateSize h1{
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(150, 190, 114);
+    padding-top: 40px;
+}
+.plates .plateSize p{
+    font-size: 23px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: white;
+}
+.plates .plateSize .plateRow{
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-around;
+}
+.plates .plateSize .plateRow .plateCol{
+    height: 256px;
+    margin: 0px;
+    padding: 0px;
+    max-width: 256px;
+}
+.plates .plateSize .plateRow .plateCol img{
+    width: 256px;
+    height: 256px;
+}
+.plates .plateSize .plateRow .plateCol h2{
+    font-size: 15px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(150, 190, 114);
+    margin: 30px;
+}
+.plates .plateSize .plateRow .plateCol h3{
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 20px;
+    text-align: center;
+    margin-right: 20px;
+    color: #f3f3f3;
+    font-weight: 200;
+}
+.plates .plateSize .plateRow .plateCol h4{
+    font-size: 18px;
+    font-family: 'Permanent Marker', cursive;
+    color: #f3f3f3;
+}
+@media only screen and (max-width: 768px){
+    .plates .plateSize .plateRow .plateCol{
+        width: 180px;
+        height: 180px;
+    }
+    .plates .plateSize .plateRow .plateCol img{
+        width: 180px;
+        height: 180px;
+    }
+    .plates .plateSize .plateRow .plateCol h2{
+        margin: 10px;
+    }
+    .plates .plateSize .plateRow .plateCol h3{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .plates .plateSize .plateRow .plateCol{
+        width: 256px;
+        height: 256px;
+    }
+    .plates .plateSize .plateRow .plateCol img{
+        width: 256px;
+        height: 256px;
+    }
+    .plates .plateSize .plateRow .plateCol h2{
+        margin: 30px;
+    }
+    .plates .plateSize .plateRow .plateCol h3{
+        font-size: 13px;
+    }
+}
